@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "jest",
+    "coverage": "npm test -- --coverage",
     "build": "npm run clean && npm run build: commonjs && npm run build: umd && npm run build: umd: min",
     "build:commonjs": "babel src --out-dir lib",
     "build:umd": "cross-env FILE_NAME=spongepoop webpack",
@@ -19,6 +20,7 @@
     "@babel/core": "^7.13.8",
     "@babel/preset-env": "^7.13.8",
     "babel-jest": "^26.6.3",
+    "coveralls": "^3.1.0",
     "cross-env": "^7.0.3",
     "eslint": "^7.21.0",
     "eslint-config-airbnb": "^18.2.1",
