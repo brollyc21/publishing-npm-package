@@ -2,3 +2,5 @@
 
 # publishing-npm-package
 A simple npm package
+
+https://medium.com/@TeeFouad/a-simple-guide-to-publishing-an-npm-package-506dd7f3c47a
